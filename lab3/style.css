@@ -25,7 +25,6 @@ body {
     font-size: 1.5rem;
 }
 
-/* Стили для полей ввода */
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group input[type="password"],
@@ -50,7 +49,6 @@ body {
     background-color: #fff;
 }
 
-/* Поля для чекбоксов и радио-кнопок */
 .checkbox-group {
     display: flex;
     align-items: center;
@@ -70,7 +68,6 @@ input[type="checkbox"] {
     color: #555;
 }
 
-/* Стили для легенд и fieldset */
 fieldset {
     border: none;
     margin-bottom: 20px;
@@ -82,7 +79,6 @@ legend {
     margin-bottom: 10px;
 }
 
-/* Кнопки */
 input[type="submit"],
 input[type="reset"] {
     width: 48%;
@@ -112,7 +108,6 @@ input[type="reset"]:hover {
     background-color: #c0392b;
 }
 
-/* Анимация и плавность */
 input[type="submit"],
 input[type="reset"] {
     transition: all 0.3s ease;
@@ -125,7 +120,6 @@ input[type="tel"] {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-/* Стили для кнопки загрузки файла */
 .form-group input[type="file"] {
     border: none;
     padding: 10px;
@@ -139,7 +133,6 @@ input[type="tel"] {
     color: #555;
 }
 
-/* Адаптивность для маленьких экранов */
 @media (max-width: 600px) {
     .registration-form {
         padding: 20px;
