@@ -26,7 +26,10 @@ article {
 
 .flex-group-1 {
   display: flex;
+}
 
+.flex-group-1 article:last-child {
+  order: -1;
 }
 
 .flex-group-2 {
